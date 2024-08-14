@@ -20,7 +20,7 @@ export const ProductCartContainer = styled.div`
         width: 70%;
         opacity: 0.7;
         position: absolute;
-        top: 220px;
+        top: 175px;
         display: none;
     }
 
@@ -45,7 +45,7 @@ export const ProductCartContainer = styled.div`
 
         button {
             width: 80%;
-            top: 255px;
+            top: 230px;
         }
     }
 
@@ -58,7 +58,7 @@ export const ProductCartContainer = styled.div`
 
         button {
             width: 85%;
-            top: 275px;
+            top: 290px;
         }
     }
 `;
