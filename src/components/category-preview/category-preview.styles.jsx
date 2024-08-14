@@ -23,6 +23,11 @@ export const Preview = styled.div`
     grid-template-columns: repeat(2, 1fr);
     column-gap: 15px;
 
+    @media (max-width: 420px) {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+    }
+
     @media (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;

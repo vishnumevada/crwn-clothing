@@ -6,7 +6,11 @@ import {
     googleSignInStart,
     emailSignInStart,
 } from "../../store/user/user.action";
-import { SignInContainer, ButtonsContainer } from "./sign-in-form.styles";
+import {
+    SignInContainer,
+    ButtonsContainer,
+    SignUpLink,
+} from "./sign-in-form.styles";
 
 const defaultFormFields = {
     email: "",
@@ -78,6 +82,10 @@ const SignInForm = () => {
                     </Button>
                 </ButtonsContainer>
             </form>
+            <span>
+                Don't have an account{" "}
+                <SignUpLink to="/auth/signup">SIGN UP</SignUpLink> here.
+            </span>
         </SignInContainer>
     );
 };

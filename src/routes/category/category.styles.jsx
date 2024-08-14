@@ -7,7 +7,7 @@ export const CategoryContainer = styled.div`
     row-gap: 30px;
 
     @media (min-width: 576px) {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         column-gap: 15px;
         row-gap: 40px;
     }

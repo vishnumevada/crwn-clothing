@@ -7,18 +7,15 @@ export const NavigationContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
     margin-bottom: 20px;
 
     @media (min-width: 768px) {
         height: 70px;
-        padding: 0 30px;
         margin-bottom: 25px;
     }
 
     @media (min-width: 1024px) {
         height: 80px;
-        padding: 0 40px;
     }
 `;
 

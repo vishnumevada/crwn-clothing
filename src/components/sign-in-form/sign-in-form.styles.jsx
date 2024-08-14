@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const SignInContainer = styled.div`
     display: flex;
@@ -32,10 +33,16 @@ export const SignInContainer = styled.div`
 export const ButtonsContainer = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
+    gap: 20px;
+    margin-bottom: 1rem;
     @media (min-width: 768px) {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
+`;
+
+export const SignUpLink = styled(Link)`
+    font-size: 16px;
+    cursor: pointer;
+    color: blue;
 `;
